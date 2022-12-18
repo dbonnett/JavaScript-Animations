@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+}
+
+#images {
+    position: absolute;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 20vw;
+    height: 18rem;
+    object-fit: cover;
+    object-position: right;
+}
